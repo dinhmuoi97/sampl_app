@@ -7,8 +7,25 @@ en:
       Rails: "Rails"
       title: "Learn Web Development with Rails"
       hi: "Home"
+      welcome: "Welcome to the Sample App"
+      this: "This is the home page for the"
+      sapmle: "sample application."
+      sig: "Sing up now"
     help:
       get: "Get help on the Ruby on Rails Tutorial at the"
       onn: "help page.To get help on this sample app, see the"
       help: "help"
       full_title: "Ruby on Rails"
+  layouts:
+    footer:
+      by: "by"
+      mh: "Michael Hartl"
+      the: "The"
+      about: "About"
+      contact: "Contact"
+      new: "News"
+    header:
+      sample: "SAMPLE APP"
+      home: "Home"
+      help: "Help"
+      log: "Login"

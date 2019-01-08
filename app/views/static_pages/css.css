@@ -1,0 +1,21 @@
+ul li{
+  display: inline-table;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+.headerMenu{
+  padding-left: 1000px;
+}
+
+.wrapper{
+  display: inline;
+}
+
+span{
+  color: blue;
+}

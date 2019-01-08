@@ -8,8 +8,26 @@ vi:
       Signup: "Đăng ký"
       Rails: "Ray"
       title: "Phát triển web với Rails"
+      hi: "Trang chu"
+      welcome: "Chào mừng đến với ví dụ"
+      this: "Đây là trang chính "
+      sample: "ứng dụng mẫu."
+      sig: "Dang ky ngay"
     help:
       get: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       onn: "trang trợ giúp. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
       help: "giúp đỡ"
       full_title: "Ruby on Rails"
+  layouts:
+    footer:
+      by: "bởi"
+      mh: "Michael Hartl"
+      the: "Day la"
+      about: "Gioi thieu"
+      contact: "Lien lac"
+      new: "Tin tuc"
+    header:
+      sample: "UNG DUNG MAU"
+      home: "Trang chu"
+      help: "Giup do"
+      log: "Dang nhap"
