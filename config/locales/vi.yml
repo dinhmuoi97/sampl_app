@@ -1,0 +1,13 @@
+vi:
+  hello: "Chào thế giới"
+  static_pages:
+    home:
+      Muoi: "Ruby on Rails"
+      Login: "Đăng nhập"
+      Signup: "Đăng ký"
+      Rails: "Ray"
+      title: "Phát triển web với Rails"
+    help:
+      get: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      onn: "trang trợ giúp. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+      help: "giúp đỡ"

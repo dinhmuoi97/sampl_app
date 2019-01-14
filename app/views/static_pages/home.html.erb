@@ -1,0 +1,36 @@
+<% provide :title, t(".hi")%>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"> Muoi Nguyen </a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto"></ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> <%= t ".Login" %> <span class= "sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><%= t ".Signup" %></a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
+  <div id="content">
+    <div class="sc-content">
+      <div class="pageMarketing">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/cover-web.png" alt="Cover Web">
+          </div>
+          <div class="col-md-6">
+            <h1> <%= t ".Muoi" %></h1>
+            <%= link_to t(".link1"),"http://www.railstutorial.org/" %> <%= t ".Rails" %></a>
+            <br/>
+            <h3> <%= t ".title" %></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
