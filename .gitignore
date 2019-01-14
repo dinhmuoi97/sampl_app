@@ -31,3 +31,5 @@
 /vendor/
 /config/master.key
 /config/database.yml
+
+.vscode/*

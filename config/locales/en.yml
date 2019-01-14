@@ -1,2 +1,14 @@
 en:
   hello: "Hello world"
+  static_pages:
+    home:
+      Muoi: "Ruby on rails tutorial"
+      Login: "Login"
+      Signup: "Signup"
+      Rails: "Rails"
+      title: "Learn Web Development with Rails"
+      hi: "Home"
+    help:
+      get: "Get help on the Ruby on Rails Tutorial at the"
+      onn: "help page.To get help on this sample app, see the"
+      help: "help"
