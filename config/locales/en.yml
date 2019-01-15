@@ -16,6 +16,15 @@ en:
       onn: "help page.To get help on this sample app, see the"
       help: "help"
       full_title: "Ruby on Rails"
+    about:
+      head_a: "static pages about"
+      title_a: "about"
+    contact:
+      head_c: "static pages contact"
+      title_c: "contact"
+    login:
+      head_l: "static pages login"
+      title_l: "login"
   layouts:
     footer:
       by: "by"
@@ -29,3 +38,20 @@ en:
       home: "Home"
       help: "Help"
       log: "Login"
+  users:
+    new:
+      head_n: "static pages new"
+      title_n: "new"
+      name: "name"
+      email: "email"
+      pass: "password"
+      cf_pass: "confirm password"
+      sign: "Sign up"
+      create: "Create my accoun"
+  users_controller:
+    wl: "Welcome to Sample App"
+    fails: "False"
+    not: "No information account,you should Signup"
+  shared:
+    error_mesages:
+      err: "error"

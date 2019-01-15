@@ -31,3 +31,20 @@ vi:
       home: "Trang chu"
       help: "Giup do"
       log: "Dang nhap"
+  users:
+    new:
+      head_n: "trang tin tuc"
+      title_n: "tin tuc"
+      name: "ten"
+      email: "email"
+      pass: "mat khau"
+      cf_pass: "xac nhan mat khau"
+      sign: "Dang ky"
+      create: "Tao tai khoan cua tao"
+  users_controller:
+    wl: "Chao mung den voi Ung dung mau"
+    fails: "That bai"
+    not: "Khong co thong tin tai khoan, ban hay dang ky!"
+  shared:
+    error_mesages:
+      err: "loi"
