@@ -3,3 +3,5 @@ max_email: 255
 mini_pass: 6
 size: 80
 one: "1"
+six: 50
+pages_limit: 10
