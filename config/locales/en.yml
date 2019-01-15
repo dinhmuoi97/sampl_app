@@ -77,12 +77,14 @@ en:
     xoa: "no delete"
     not_found: "not find"
     noww: "fails now"
+    pls: "Please check your email to activate your account."
   shared:
     error_mesages:
       err: "error"
       the: "The form contains"
   sessions_controller:
     inva: "Invalid email/password combination"
+    acc_not: "Account not activated."
   sessions:
     new:
       login: "Log in"
@@ -91,3 +93,9 @@ en:
       pass: "Password"
       sign: "Sign up now!"
       newuser: "New users?"
+  account_activations_controller:
+    acc_act: "Account activated!"
+    inv_acti: "Invalid activation link"
+  mailers:
+    user_mailer:
+      ac_at: "Account activation"
