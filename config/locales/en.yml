@@ -1,5 +1,4 @@
 en:
-  hello: "Hello world"
   static_pages:
     home:
       Muoi: "Ruby on rails tutorial"
@@ -12,3 +11,4 @@ en:
       get: "Get help on the Ruby on Rails Tutorial at the"
       onn: "help page.To get help on this sample app, see the"
       help: "help"
+      full_title: "Ruby on Rails"
