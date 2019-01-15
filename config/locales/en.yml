@@ -74,17 +74,20 @@ en:
     pro_up: "Profile updated"
     userup: "user updated"
     plog: "Please log in."
-    xoa: "no delete"
+    no_del: "no delete"
     not_found: "not find"
     noww: "fails now"
     pls: "Please check your email to activate your account."
+    pls_check: "Please check your email to activate your account."
   shared:
     error_mesages:
       err: "error"
       the: "The form contains"
   sessions_controller:
     inva: "Invalid email/password combination"
-    acc_not: "Account not activated."
+    acc_not_act: "Account not active!!"
+    check_mail: "Check your email for the activation link."
+    acc_not: "Account not active"
   sessions:
     new:
       login: "Log in"
@@ -92,10 +95,50 @@ en:
       email: "Email"
       pass: "Password"
       sign: "Sign up now!"
-      newuser: "New users?"
+      sign_new: "New users?"
   account_activations_controller:
     acc_act: "Account activated!"
     inv_acti: "Invalid activation link"
   mailers:
     user_mailer:
       ac_at: "Account activation"
+      forgot_password: "forgot password"
+      remember: "Remember me on this computer"
+  account_activations_controller:
+    acc_active: "Account activated!"
+    in_act_link: "Invalid activation link"
+  account_activation:
+    sample: "Sample App"
+    hi: "Hi"
+    welcome: "Welcome to the Sample App! Click on the link below
+      to activate your account:"
+    welcome: "Welcome to the Sample App!
+      Click on the link below to activate your account"
+    act: "Activate"
+  password_resets:
+    new:
+      forgot_password: "forgot password"
+      submit: "Submit"
+    edit:
+      reset_password: "reset password"
+      update_password: "Update password"
+      confirm: "Confirmation"
+      pass: "Password has been reset."
+  controller:
+    password_resets_controller:
+      infor: "Email sent with password reset instructions"
+      not_found: "Email address not found"
+      cant: "can't be empty"
+      set: "Password reset has expired."
+  mailers:
+    users_mailer:
+      acc_act: "Account activation"
+      pass_reset: "Password reset"
+  users_mailer:
+    password_reset:
+      to: "To reset your password click the link below:"
+      this: "This link will expire in two hours."
+      if: "If you did not request your password to be reset, please ignore this
+        email and your password will stay as it is."
+      reset: "Password reset"
+not_find_user: "not find user"
