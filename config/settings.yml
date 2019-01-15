@@ -1,0 +1,3 @@
+max_user: 50
+max_email: 255
+max_pass: 6
