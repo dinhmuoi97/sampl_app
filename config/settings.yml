@@ -6,3 +6,9 @@ one: "1"
 six: 50
 pages_limit: 10
 two: 2
+microposts_number: 10
+micro_forty: 40
+size_picture: 5
+avt_size: 50
+feed_number: 15
+size_five: 50

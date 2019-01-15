@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_reader :remember_token, :activation_token, :reset_token
   before_save :downcase_email
   before_create :create_activation_digest
@@ -6,7 +7,7 @@ class User < ApplicationRecord
   has_secure_password
   validates :name, presence: true, length: {maximum: Settings.max_user}
   validates :email, presence: true, length: {maximum: Settings.max_email},
-    format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
+    format: {with: VALID_EMAIL_REGEX}
   validates :password, presence: true, length: {minimum: Settings.mini_pass},
     allow_nil: true
 
@@ -59,6 +60,14 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.two.hours.ago
+  end
+
+  def feed
+    microposts
+  end
+
+  def current_user? user
+    self == user
   end
 
   private
