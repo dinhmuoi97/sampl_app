@@ -2,3 +2,4 @@ max_user: 50
 max_email: 255
 mini_pass: 6
 size: 80
+one: "1"

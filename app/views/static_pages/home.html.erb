@@ -5,7 +5,7 @@
   <%= link_to "Vietnamese", locale: "vi" %>
   <h2>
     <%= t ".this" %>
-    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    <%= link_to t(".muoi"), "http://www.railstutorial.org/" %>
   </h2>
   <%= link_to t(".sig"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
@@ -13,22 +13,6 @@
 <%= link_to image_tag("rails.png", alt: "Rails logo"),
             'http://rubyonrails.org/' %>
 <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"> Muoi Nguyen </a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto"></ul>
-      <form class="form-inline my-2 my-lg-0">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"> <%= t ".Login" %> <span class= "sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><%= t ".Signup" %></a>
-          </li>
-        </ul>
-      </form>
-    </div>
-  </nav>
   <div id="content">
     <div class="sc-content">
       <div class="pageMarketing">
@@ -37,8 +21,8 @@
             <img src="https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/cover-web.png" alt="Cover Web">
           </div>
           <div class="col-md-6">
-            <h1> <%= t ".Muoi" %></h1>
-            <%= link_to t(".link1"),"http://www.railstutorial.org/" %> <%= t ".Rails" %></a>
+            <h1> <%= t ".muoi" %></h1>
+            <%= link_to t(".link1"),"http://www.railstutorial.org/" %> <%= t ".rails" %></a>
             <br/>
             <h3> <%= t ".title" %></h3>
           </div>

@@ -25,7 +25,7 @@ class User < ApplicationRecord
   end
 
   def remember
-    self.remember_token = User.new_token
+    @remember_token = User.new_token
     update remember_digest: User.digest(remember_token)
   end
 

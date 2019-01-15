@@ -1,10 +1,10 @@
 en:
   static_pages:
     home:
-      Muoi: "Ruby on rails tutorial"
+      muoi: "Ruby on rails tutorial"
       Login: "Login"
       Signup: "Signup"
-      Rails: "Rails"
+      rails: "Rails"
       title: "Learn Web Development with Rails"
       hi: "Home"
       welcome: "Welcome to the Sample App"
@@ -33,6 +33,7 @@ en:
       about: "About"
       contact: "Contact"
       new: "News"
+      muoi: "Ruby on rails tutorial"
     header:
       sample: "SAMPLE APP"
       home: "Home"
@@ -54,6 +55,11 @@ en:
       cf_pass: "confirm password"
       sign: "Sign up"
       create: "Create my accoun"
+    edit:
+      change: "Changes"
+      editu: "Edit user"
+      save_change: "Save changes"
+      up: "update progile"
   users_controller:
     wl: "Welcome to Sample App"
     fails: "False"
