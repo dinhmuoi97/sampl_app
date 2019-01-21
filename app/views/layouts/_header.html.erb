@@ -3,9 +3,15 @@
     <%= link_to t(".sample"), "#", id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to t(".home"), "#" %></li>
-        <li><%= link_to t(".help"), "#" %></li>
-        <li><%= link_to t(".log"), "#" %></li>
+        <li><%= link_to t(".home"), home_path %></li>
+        <li><%= link_to t(".help"), help_path %></li>
+        <li><%= link_to t(".log"), login_path %></li>
+        <li>
+          <%= link_to "En", locale: "en" %>
+        </li>
+        <li>
+          <%= link_to "Vi", locale: "vi" %>
+        </li>
       </ul>
     </nav>
   </div>
