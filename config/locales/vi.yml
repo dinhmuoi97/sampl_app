@@ -31,6 +31,12 @@ vi:
       home: "Trang chu"
       help: "Giup do"
       log: "Dang nhap"
+      pro: "Ca nhan"
+      set: "Cai dat"
+      logout: "Dang xuat"
+      login: "Dang nhap"
+      acc: "Tai khoan"
+      user: "Nguoi dung"
   users:
     new:
       head_n: "trang tin tuc"
@@ -48,3 +54,13 @@ vi:
   shared:
     error_mesages:
       err: "loi"
+  sessions_controller:
+    inva: "sai email/ mat khau"
+  sessions:
+    new:
+      login: "Dang nhap"
+      title_l: "Dang nhap"
+      email: "E meu"
+      pass: "mat khau"
+      sign: "dang nhap bay gio!"
+      newuser: "Nguoi dung moi?"
