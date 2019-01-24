@@ -13,6 +13,7 @@ vi:
       this: "Đây là trang chính "
       sample: "ứng dụng mẫu."
       sig: "Dang ky ngay"
+      muoi: "Ruby tren Railssss"
     help:
       get: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       onn: "trang trợ giúp. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
