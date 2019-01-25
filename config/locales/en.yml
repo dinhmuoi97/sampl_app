@@ -46,7 +46,7 @@ en:
       acc: "Acount"
       user: "Users"
   users:
-    new:
+    form:
       head_n: "static pages new"
       title_n: "new"
       name: "name"
@@ -59,14 +59,28 @@ en:
       change: "Changes"
       editu: "Edit user"
       save_change: "Save changes"
-      up: "update progile"
+      upd: "update profile"
+    new:
+      sign: "Sign up"
+      title_n: "new"
+    index:
+      allu: "all user"
+    user:
+      delete: "delete"
   users_controller:
     wl: "Welcome to Sample App"
     fails: "False"
     not: "No information account,you should Signup"
+    pro_up: "Profile updated"
+    userup: "user updated"
+    plog: "Please log in."
+    xoa: "no delete"
+    not_found: "not find"
+    noww: "fails now"
   shared:
     error_mesages:
       err: "error"
+      the: "The form contains"
   sessions_controller:
     inva: "Invalid email/password combination"
   sessions:
