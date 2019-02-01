@@ -55,6 +55,7 @@ vi:
     fails: "That bai"
     not: "Khong co thong tin tai khoan, ban hay dang ky!"
     noww: "loi ngay"
+    userup: "da cap nhat"
   shared:
     error_mesages:
       err: "loi"
