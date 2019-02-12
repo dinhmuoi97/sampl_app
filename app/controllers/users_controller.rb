@@ -17,7 +17,7 @@ class UsersController < ApplicationController
 
     if @user.save
       @user.send_activation_email
-      flash[:info] = t "users_controller.pls"
+      flash[:info] = t "users_controller.pls_check"
       redirect_to root_url
     else
       render :new
@@ -29,7 +29,7 @@ class UsersController < ApplicationController
   def edit; end
 
   def update
-    if @user.update_attributes user_params
+    if @user.update user_params
       flash[:success] = t ".pro_up"
       redirect_to @user
     else
@@ -39,11 +39,8 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    @user.destroy ? flash[:success] = t(".userup") : flash[:danger] = t(".xoa")
+    @user.destroy ? flash[:success] = t(".userup") : flash[:danger] = t(".no_del")
     redirect_to users_url
-  end
-
-  def edit
   end
 
   def update

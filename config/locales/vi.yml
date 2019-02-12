@@ -61,6 +61,8 @@ vi:
       err: "loi"
   sessions_controller:
     inva: "sai email/ mat khau"
+    acc_not_act: "Tai khoan khong duoc tao!!"
+    check_mail: "kiem tra hop thu den de chap nhan."
   sessions:
     new:
       login: "Dang nhap"
@@ -69,3 +71,15 @@ vi:
       pass: "mat khau"
       sign: "dang nhap bay gio!"
       newuser: "Nguoi dung moi?"
+  account_activations_controller:
+    acc_active: "Tai khoan da duoc lam!"
+    In_act_link: "duong dan khong dung"
+  account_activation:
+    sample: "Ung dung mau"
+    hi: "Xin chao"
+    welcome: "Chao muang den voi Ung dung mau!! nhan duoi link de ach tip tai khoan cua ban"
+    act: "ach tip"
+  mailers:
+    users_mailer:
+      acc_act: "tai khoan duoc hoat dong"
+      pass_reset: "dat lai mat khau"
