@@ -24,7 +24,9 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.order_desc.page(params[:page]).per Settings.microposts_number
+  end
 
   def edit; end
 
@@ -76,7 +78,7 @@ class UsersController < ApplicationController
 
   def correct_user
     @user = User.find_by id: params[:id]
-    redirect_to root_url unless current_user? @user
+    redirect_to root_url unless current_user.current_user? @user
   end
 
   def admin_user

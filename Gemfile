@@ -11,6 +11,8 @@ gem "uglifier", ">= 1.3.0"
 gem "coffee-rails", "~> 4.2"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
+gem "carrierwave", "1.2.2"
+gem "mini_magick", "4.7.0"
 gem "bootsnap", ">= 1.1.0", require: false
 gem "i18n", "~> 1.5"
 gem "jquery-rails"
@@ -34,3 +36,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+group :production do
+  gem "fog", "1.42"
+end

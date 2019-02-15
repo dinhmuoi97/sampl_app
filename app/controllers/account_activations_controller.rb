@@ -3,7 +3,6 @@ class AccountActivationsController < ApplicationController
     user = User.find_by email: params[:email]
 
     if user && !user.activated? && user.authenticated?(:activation, params[:id])
-      byebug
       user.update activated: true, activated_at: Time.zone.now
       log_in user
       flash[:success] = t "account_activations_controller.acc_active"

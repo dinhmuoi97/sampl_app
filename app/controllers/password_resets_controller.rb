@@ -39,7 +39,7 @@ class PasswordResetsController < ApplicationController
   end
 
   def get_user
-    return if @user = User.find_by email: params[:email]
+    return if (@user = User.find_by email: params[:email])
     flash[:danger] = t ".not_find_user"
   end
 
