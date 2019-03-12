@@ -157,3 +157,5 @@ en:
   post: "Post"
   view_my: "view my profile"
   error: "no create micropost"
+  following: "following"
+  followers: "followers"
